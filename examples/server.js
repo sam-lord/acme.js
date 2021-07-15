@@ -3,7 +3,7 @@
 var crypto = require('crypto');
 //var dnsjs = require('dns-suite');
 var dig = require('dig.js/dns-request');
-var request = require('util').promisify(require('@root/request'));
+var request = require('util').promisify(require('@sam-lord/request'));
 var express = require('express');
 var app = express();
 
